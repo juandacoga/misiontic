@@ -6,7 +6,7 @@ now = datetime.now()
 
 if(now.hour >= 6 and now.hour < 12):
     print('Buenos días')
-elif(now.hour >= 12 and now.hour < 18):
+if(now.hour >= 12 and now.hour < 18):
     print('Buenas tardes')
-else:
+if(now.hour >= 18 or now.hour < 6):
     print('Buenas noches')
